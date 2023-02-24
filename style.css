@@ -1,0 +1,33 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.image{
+    width: 40px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: auto; */
+    height: 100vh;
+    gap: 20px;
+}
+
+button{
+    border-radius: 8%;
+}
+
+body {
+    color: #222;
+    background: #fff;
+}
+
+
+body.dark-theme {
+    color: #eee;
+    background: #121212;
+}
